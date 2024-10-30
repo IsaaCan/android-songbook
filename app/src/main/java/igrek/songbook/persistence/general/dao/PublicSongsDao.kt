@@ -20,7 +20,7 @@ class PublicSongsDao(private val dbFile: File) : AbstractSqliteDao() {
 
     private var songsDbHelper: SQLiteDatabase? = null
 
-    private val supportedDbVersion = 50
+    private val supportedDbVersion = 1
 
     override fun getDatabase(): SQLiteDatabase {
         if (songsDbHelper == null)
