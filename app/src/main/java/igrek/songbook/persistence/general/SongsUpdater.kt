@@ -32,8 +32,8 @@ class SongsUpdater(
     private val logger = LoggerFactory.logger
 
     companion object {
-        private const val apiUrl = "https://chords.igrek.dev/api/v5"
-        private const val songsdbUrl = "$apiUrl/songs_db"
+        private const val apiUrl = "https://songbook.ngoso.co.ke/api/v1"
+        private const val songsdbUrl = "$apiUrl/songs.sqlite"
         private const val songsDbVersionUrl = "$apiUrl/songs_version"
     }
 
