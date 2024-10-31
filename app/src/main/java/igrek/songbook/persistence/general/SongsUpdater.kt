@@ -33,7 +33,7 @@ class SongsUpdater(
 
     companion object {
         private const val apiUrl = "https://songbook.ngoso.co.ke/api/v1"
-        private const val songsdbUrl = "$apiUrl/songs.sqlite"
+        private const val songsdbUrl = "$apiUrl/songs_db"
         private const val songsDbVersionUrl = "$apiUrl/songs_version"
     }
 
