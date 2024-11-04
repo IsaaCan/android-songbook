@@ -1,4 +1,4 @@
-package igrek.songbook.screenshot
+package mwongela.songbook.screenshot
 
 import android.view.KeyEvent
 import androidx.test.espresso.Espresso.onView
@@ -8,20 +8,20 @@ import androidx.test.espresso.contrib.NavigationViewActions
 import androidx.test.espresso.matcher.ViewMatchers.*
 import androidx.test.rule.ActivityTestRule
 import androidx.test.runner.AndroidJUnit4
-import igrek.songbook.R
-import igrek.songbook.activity.MainActivity
-import igrek.songbook.inject.appFactory
-import igrek.songbook.settings.chordsnotation.ChordsNotation
-import igrek.songbook.settings.enums.ChordsInstrument
-import igrek.songbook.settings.language.AppLanguage
-import igrek.songbook.settings.theme.ColorScheme
-import igrek.songbook.settings.theme.DisplayStyle
-import igrek.songbook.settings.theme.FontTypeface
-import igrek.songbook.test.ScreenshotCapture
-import igrek.songbook.test.swipeUpABit
-import igrek.songbook.test.waitFor
-import igrek.songbook.test.waitForVisibleView
-import igrek.songbook.test.withIndex
+import mwongela.songbook.R
+import mwongela.songbook.activity.MainActivity
+import mwongela.songbook.inject.appFactory
+import mwongela.songbook.settings.chordsnotation.ChordsNotation
+import mwongela.songbook.settings.enums.ChordsInstrument
+import mwongela.songbook.settings.language.AppLanguage
+import mwongela.songbook.settings.theme.ColorScheme
+import mwongela.songbook.settings.theme.DisplayStyle
+import mwongela.songbook.settings.theme.FontTypeface
+import mwongela.songbook.test.ScreenshotCapture
+import mwongela.songbook.test.swipeUpABit
+import mwongela.songbook.test.waitFor
+import mwongela.songbook.test.waitForVisibleView
+import mwongela.songbook.test.withIndex
 import org.hamcrest.Matchers
 import org.hamcrest.Matchers.allOf
 import org.hamcrest.Matchers.endsWith
@@ -32,14 +32,14 @@ import org.junit.runner.RunWith
 
 /*
 Run this to fetch screenshots from a device
-adb pull /storage/emulated/0/Android/data/igrek.songbook/files/screenshots/01.png
-adb pull /storage/emulated/0/Android/data/igrek.songbook/files/screenshots/02.png
-adb pull /storage/emulated/0/Android/data/igrek.songbook/files/screenshots/03.png
-adb pull /storage/emulated/0/Android/data/igrek.songbook/files/screenshots/04.png
-adb pull /storage/emulated/0/Android/data/igrek.songbook/files/screenshots/05.png
-adb pull /storage/emulated/0/Android/data/igrek.songbook/files/screenshots/06.png
-adb pull /storage/emulated/0/Android/data/igrek.songbook/files/screenshots/07.png
-adb pull /storage/emulated/0/Android/data/igrek.songbook/files/screenshots/08.png
+adb pull /storage/emulated/0/Android/data/mwongela.songbook/files/screenshots/01.png
+adb pull /storage/emulated/0/Android/data/mwongela.songbook/files/screenshots/02.png
+adb pull /storage/emulated/0/Android/data/mwongela.songbook/files/screenshots/03.png
+adb pull /storage/emulated/0/Android/data/mwongela.songbook/files/screenshots/04.png
+adb pull /storage/emulated/0/Android/data/mwongela.songbook/files/screenshots/05.png
+adb pull /storage/emulated/0/Android/data/mwongela.songbook/files/screenshots/06.png
+adb pull /storage/emulated/0/Android/data/mwongela.songbook/files/screenshots/07.png
+adb pull /storage/emulated/0/Android/data/mwongela.songbook/files/screenshots/08.png
  */
 @RunWith(AndroidJUnit4::class)
 class MobileEnScreenshotMaker {

@@ -1,4 +1,4 @@
-package igrek.songbook.test
+package mwongela.songbook.test
 
 import android.content.Context
 import android.graphics.Bitmap

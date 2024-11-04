@@ -1,13 +1,13 @@
-package igrek.songbook.settings
+package mwongela.songbook.settings
 
 import androidx.test.rule.ActivityTestRule
 import androidx.test.runner.AndroidJUnit4
-import igrek.songbook.activity.MainActivity
-import igrek.songbook.inject.appFactory
-import igrek.songbook.settings.chordsnotation.ChordsNotation
-import igrek.songbook.settings.preferences.PreferencesField
-import igrek.songbook.settings.preferences.PreferencesService
-import igrek.songbook.settings.preferences.PreferencesState
+import mwongela.songbook.activity.MainActivity
+import mwongela.songbook.inject.appFactory
+import mwongela.songbook.settings.chordsnotation.ChordsNotation
+import mwongela.songbook.settings.preferences.PreferencesField
+import mwongela.songbook.settings.preferences.PreferencesService
+import mwongela.songbook.settings.preferences.PreferencesState
 import org.junit.Assert.assertEquals
 import org.junit.Rule
 import org.junit.Test

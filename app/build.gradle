@@ -27,7 +27,7 @@ def getVersionName = { ->
 android {
     compileSdkVersion 33
     defaultConfig {
-        applicationId "igrek.songbook"
+        applicationId "mwongela.songbook"
         minSdkVersion 21 // Android 5.0 Lollipop
         targetSdkVersion 33 // Android 13
         versionCode getVersionCode()

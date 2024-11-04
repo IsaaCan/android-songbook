@@ -145,7 +145,7 @@
                 android:text="@string/room_chat"
                 android:textSize="18sp" />
 
-            <igrek.songbook.room.RoomChatListView
+            <mwongela.songbook.room.RoomChatListView
                 android:id="@+id/itemsListView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />

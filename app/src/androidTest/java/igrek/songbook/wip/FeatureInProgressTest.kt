@@ -1,14 +1,14 @@
-package igrek.songbook.wip
+package mwongela.songbook.wip
 
 import android.app.Activity
 import androidx.test.rule.ActivityTestRule
 import androidx.test.runner.AndroidJUnit4
-import igrek.songbook.activity.MainActivity
-import igrek.songbook.info.logger.LoggerFactory
-import igrek.songbook.inject.AppContextFactory
-import igrek.songbook.inject.appFactory
-import igrek.songbook.persistence.repository.SongsRepository
-import igrek.songbook.settings.preferences.PreferencesService
+import mwongela.songbook.activity.MainActivity
+import mwongela.songbook.info.logger.LoggerFactory
+import mwongela.songbook.inject.AppContextFactory
+import mwongela.songbook.inject.appFactory
+import mwongela.songbook.persistence.repository.SongsRepository
+import mwongela.songbook.settings.preferences.PreferencesService
 import kotlinx.coroutines.*
 import org.junit.Before
 import org.junit.Ignore

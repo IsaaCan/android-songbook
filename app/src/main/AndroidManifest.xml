@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="igrek.songbook">
+    package="mwongela.songbook">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="com.android.vending.BILLING" />
@@ -17,7 +17,7 @@
         android:required="false" />
 
     <application
-        android:name="igrek.songbook.MainApplication"
+        android:name="mwongela.songbook.MainApplication"
         android:allowBackup="true"
         android:banner="@drawable/banner"
         android:fullBackupContent="@xml/backup_rules"

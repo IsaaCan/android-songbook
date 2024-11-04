@@ -1,4 +1,4 @@
-package igrek.songbook
+package mwongela.songbook
 
 import androidx.test.InstrumentationRegistry
 import androidx.test.runner.AndroidJUnit4
@@ -17,6 +17,6 @@ class SmokeInstrumentationTest {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getTargetContext()
 
-        assert(appContext.packageName == "igrek.songbook")
+        assert(appContext.packageName == "mwongela.songbook")
     }
 }

@@ -1,4 +1,4 @@
-package igrek.songbook.screenshot
+package mwongela.songbook.screenshot
 
 import androidx.test.espresso.Espresso.onView
 import androidx.test.espresso.action.Swipe
@@ -9,18 +9,18 @@ import androidx.test.espresso.contrib.NavigationViewActions
 import androidx.test.espresso.matcher.ViewMatchers.*
 import androidx.test.rule.ActivityTestRule
 import androidx.test.runner.AndroidJUnit4
-import igrek.songbook.R
-import igrek.songbook.activity.MainActivity
-import igrek.songbook.inject.appFactory
-import igrek.songbook.settings.chordsnotation.ChordsNotation
-import igrek.songbook.settings.enums.ChordsInstrument
-import igrek.songbook.settings.language.AppLanguage
-import igrek.songbook.settings.theme.ColorScheme
-import igrek.songbook.settings.theme.DisplayStyle
-import igrek.songbook.settings.theme.FontTypeface
-import igrek.songbook.test.swipeUpABit
-import igrek.songbook.test.waitFor
-import igrek.songbook.test.waitForVisibleView
+import mwongela.songbook.R
+import mwongela.songbook.activity.MainActivity
+import mwongela.songbook.inject.appFactory
+import mwongela.songbook.settings.chordsnotation.ChordsNotation
+import mwongela.songbook.settings.enums.ChordsInstrument
+import mwongela.songbook.settings.language.AppLanguage
+import mwongela.songbook.settings.theme.ColorScheme
+import mwongela.songbook.settings.theme.DisplayStyle
+import mwongela.songbook.settings.theme.FontTypeface
+import mwongela.songbook.test.swipeUpABit
+import mwongela.songbook.test.waitFor
+import mwongela.songbook.test.waitForVisibleView
 import org.hamcrest.Matchers.allOf
 import org.hamcrest.Matchers.endsWith
 import org.junit.Rule

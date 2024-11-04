@@ -170,7 +170,7 @@
         android:padding="0dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-        <igrek.songbook.custom.list.CustomSongListView
+        <mwongela.songbook.custom.list.CustomSongListView
             android:id="@+id/itemsListView"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />

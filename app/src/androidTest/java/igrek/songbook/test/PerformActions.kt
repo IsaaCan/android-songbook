@@ -1,4 +1,4 @@
-package igrek.songbook.test
+package mwongela.songbook.test
 
 import android.view.View
 import androidx.core.view.isVisible
