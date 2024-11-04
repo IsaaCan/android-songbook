@@ -1,0 +1,9 @@
+syntax = "proto3";
+package mwongela.songbook.custom.share.protos;
+
+message SharedSongDto {
+  string title = 1;
+  string content = 2;
+  optional string customCategory = 3;
+  optional int64 chordsNotation = 4;
+}
